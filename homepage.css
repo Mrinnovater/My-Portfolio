@@ -1,0 +1,1145 @@
+.hpbg{
+    background-color: #bee8e4;
+    height:381vh;
+    width:99vw;
+    background-size:cover;
+    font-family:"Times New Roman";
+}
+
+.headerbg{
+    height:125px;
+    background-size:cover;
+    padding-top:0px;
+}
+
+.projecttitle{
+    color:#000;
+}
+
+.projectdesc{
+    color:#000;
+}
+
+.miniborder{
+    width:1520px;
+}
+
+.headline h1 {
+    margin: 60px; 
+    color: aquamarine; 
+    text-align: center;
+}
+
+.headline h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+
+.headline h1 span {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+.headline h1 span:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.headline h1 span:nth-child(2) {
+    animation-delay: 0.5s;
+}
+
+.headline h1 span:nth-child(3) {
+    animation-delay: 1s;
+}
+
+.headline h1 span:nth-child(4) {
+    animation-delay: 1.5s;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    background-color:rgba(0, 0, 0, 0.329);
+}
+.Connect-section{
+    background-color: azure;
+}
+
+.social-media{
+    padding:10px;
+    gap:100px;
+}
+
+.body {
+    background-color: #000; /* Dark background */
+    color: #fff; /* White text color */
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+}
+
+.projectbutton{
+    border-radius:10px;
+}
+
+.home-content{
+    height:200px;
+    width:1200px;
+}
+
+.home-content h4 {
+    font-size: 20px;
+    margin: 0;
+    color: #000;
+}
+
+.home-content h3 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 5px 0;
+    color:rgb(55, 25, 25);
+}
+
+.home-content span.multiple-text {
+    color: #1DB5E6;
+}
+
+.home-img img {
+    border-radius: 50%;
+    height: 250px;
+    width: 220px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+}
+
+.home-img:hover{
+    transform: scale(1.05);
+}
+
+/* Basic setup for the container */
+.portfolio-title {
+    font-size: 2em;
+    font-weight: bold;
+    color: #171212;
+    position: relative;
+    height: 1.2em; /* Adjust height based on font size */
+    overflow: hidden;
+  }
+  
+  /* Each text span styling */
+  .portfolio-title .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    animation: fadeInOut 6s linear infinite;
+  }
+  
+  /* Assign each text a delay for the cycle */
+  .portfolio-title .text:nth-child(1) {
+    animation-delay: 0s;
+  }
+  .portfolio-title .text:nth-child(2) {
+    animation-delay: 2s;
+  }
+  .portfolio-title .text:nth-child(3) {
+    animation-delay: 4s;
+  }
+  
+  /* Animation keyframes */
+  @keyframes fadeInOut {
+    0%, 20% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    30%, 100% {
+      opacity: 0;
+      transform: translateY(-1em); /* Slide up slightly */
+    }
+  }
+  
+
+.button {
+    display: inline-block;
+    color: #000;
+    padding: 6px;
+    margin: 1px;
+    border-radius: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0px 0px 15px rgba(61, 251, 68, 0.5);
+    transition: transform 0.2s ease;
+    border-color: #fff;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.social-icons a {
+    color: #1DB5E6;
+    text-decoration: none;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #0E7CBF;
+}
+
+.social-media1{
+    gap: 40px;
+}
+
+.skills{
+    height:80px;
+    width:80px;
+    border-radius: 8px;
+}
+
+.projectimages{
+    height:250px;
+    width:600px;
+}
+
+/* For screens 1440px and below */
+@media only screen and (max-width: 1440px) {
+    .hpbg {
+        height: 3530px; /* Adjust height */
+        width:100vw;
+    }
+
+    .miniborder{
+        width:1440px;
+    }
+
+    .projectimages {
+        height: 500px; /* Adjust project image size */
+        width: 100%; /* Full width */
+    }
+
+    .projectdesc{
+        font-size: 25px;
+    }
+    
+    .projecttitle{
+        font-size: 40px;
+    }
+
+    .experiencedesc{
+        font-size: 23px;
+    }
+    
+    .experiencetitle{
+        font-size: 35px;
+    }
+
+    .projectbutton{
+        border-radius:10px;
+        height:40px;
+    }
+}
+ 
+/* For screens 1280px(14 inches laptop and below */
+@media only screen and (max-width:1280px){
+    .hpbg{
+        background-color: #bee8e4;
+        height:2940px;
+        width:99vw;
+        background-size:cover;
+        font-family:"Cursive";
+      }
+      
+      .headerbg{
+        height:125px;
+        background-size:cover;
+        padding-top:0px;
+      }
+      
+      .projecttitle{
+        color:#000;
+      }
+      
+      .projectdesc{
+        color:#000;
+      }
+      
+      .miniborder{
+        width:1267px;
+      }
+      
+      .headline h1 {
+        margin: 60px; 
+        color: aquamarine; 
+        text-align: center;
+      }
+      
+      .headline h1 {
+        font-size: 3rem;
+        font-weight: bold;
+        text-align: center;
+        color: #fff;
+      }
+      
+      .headline h1 span {
+        opacity: 0;
+        animation: fadeIn 1s forwards;
+      }
+      
+      .headline h1 span:nth-child(1) {
+        animation-delay: 0s;
+      }
+      
+      .headline h1 span:nth-child(2) {
+        animation-delay: 0.5s;
+      }
+      
+      .headline h1 span:nth-child(3) {
+        animation-delay: 1s;
+      }
+      
+      .headline h1 span:nth-child(4) {
+        animation-delay: 1.5s;
+      }
+      
+      @keyframes fadeIn {
+        to {
+            opacity: 1;
+        }
+      }
+      
+      .carousel-control-prev-icon,.carousel-control-next-icon{
+        background-color:rgba(0, 0, 0, 0.329);
+      }
+      .Connect-section{
+        background-color: azure;
+      }
+      
+      .social-media{
+        padding:10px;
+        gap:100px;
+      }
+      
+      .body {
+        background-color: #000; /* Dark background */
+        color: #fff; /* White text color */
+        font-family: Arial, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+      }
+      
+      .home {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        max-width: 800px;
+        width: 100%;
+      }
+      
+      .projectbutton{
+        border-radius:10px;
+      }
+      
+      .home-content{
+        height:200px;
+        width:900px;
+      }
+      
+      .home-content h4 {
+        font-size: 20px;
+        margin: 0;
+        color: #000;
+      }
+      
+      .home-content h3 {
+        font-size: 36px;
+        font-weight: bold;
+        margin: 5px 0;
+        color:rgb(55, 25, 25);
+      }
+      
+      .home-content span.multiple-text {
+        color: #1DB5E6;
+      }
+      
+      .home-img img {
+        border-radius: 50%;
+        height: 250px;
+        width: 220px;
+        box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+      }
+      
+      .home-img:hover{
+        transform: scale(1.05);
+      }
+      
+      /* Basic setup for the container */
+      .portfolio-title {
+        font-size: 2em;
+        font-weight: bold;
+        color: #171212;
+        position: relative;
+        height: 1.2em; /* Adjust height based on font size */
+        overflow: hidden;
+      }
+      
+      /* Each text span styling */
+      .portfolio-title .text {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        animation: fadeInOut 6s linear infinite;
+      }
+      
+      /* Assign each text a delay for the cycle */
+      .portfolio-title .text:nth-child(1) {
+        animation-delay: 0s;
+      }
+      .portfolio-title .text:nth-child(2) {
+        animation-delay: 2s;
+      }
+      .portfolio-title .text:nth-child(3) {
+        animation-delay: 4s;
+      }
+      
+      /* Animation keyframes */
+      @keyframes fadeInOut {
+        0%, 20% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+        30%, 100% {
+          opacity: 0;
+          transform: translateY(-1em); /* Slide up slightly */
+        }
+      }
+      
+      
+      .button {
+        display: inline-block;
+        color: #000;
+        padding: 6px;
+        margin: 1px;
+        border-radius: 25px;
+        font-weight: bold;
+        text-decoration: none;
+        box-shadow: 0px 0px 15px rgba(61, 251, 68, 0.5);
+        transition: transform 0.2s ease;
+        border-color: #fff;
+      }
+      
+      .button:hover {
+        transform: scale(1.05);
+      }
+      
+      .social-icons {
+        display: flex;
+        gap: 10px;
+        margin-top: 15px;
+      }
+      
+      .social-icons a {
+        color: #1DB5E6;
+        text-decoration: none;
+        font-size: 24px;
+        transition: color 0.3s;
+      }
+      
+      .social-icons a:hover {
+        color: #0E7CBF;
+      }
+      
+      .social-media1{
+        gap: 40px;
+      }
+      
+      .skills{
+        height:80px;
+        width:80px;
+        border-radius: 8px;
+      }
+      
+      .projectimages{
+        height:250px;
+        width:600px;
+      }
+      
+      .projectdesc{
+        font-size: 17px;
+      }
+      
+      .projecttitle{
+        color:#000;
+        font-size: 25px;
+      }
+      
+      .experiencedesc{
+        font-size: 18px;
+      }
+      
+      .experiencetitle{
+        font-size: 27px;
+      }
+      
+      .projectbutton{
+        border-radius:10px;
+        height:20px;
+        font-size: 10px;
+      }
+      
+      .miniborder h1{
+        font-size:30px;
+      }
+      
+      .Skills-section h3{
+        font-size:21px;
+      }
+}
+
+/* For screens 1024px and below */
+@media only screen and (max-width: 1024px){
+    .hpbg {
+        height: 3220px; /* Adjust height */
+        width:100vw;
+    }
+
+    .headline h1 {
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        color: #fff;
+    }
+
+    .headerbg{
+        height:100px;
+        background-size:cover;
+        padding-top:0px;
+    }
+
+    .home-content h4 {
+        font-size: 17px;
+        margin: 0;
+        color: #000;
+    }
+    
+    .home-content h3 {
+        font-size: 25px;
+        font-weight: bold;
+        margin: 5px 0;
+        color:rgb(55, 25, 25);
+    }
+
+    .portfolio-title {
+        font-size: 24px;
+        font-weight: bold;
+        color: #000000;
+        position: relative;
+        height: 1.2em;
+        overflow: hidden;
+    }
+
+    .home {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px; /* Reduce padding to decrease space */
+        max-width: 800px;
+        width: 100%;
+    }
+
+    .home-content {
+        height: 200px;
+        width: 700px; /* Reduce width to bring the text closer to the image */
+        margin-right: 10px; /* Add a small margin to control spacing */
+    }
+    
+    .home-img img {
+        border-radius: 50%;
+        height: 250px;
+        width: 220px;
+        box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+        margin-left: 10px; /* Optional: reduce left margin */
+    }
+
+
+    .miniborder{
+        width:1024px;
+    }
+
+    .miniborder h1{
+        font-size:27px;
+    }
+
+    .projectimages {
+        height: 500px; /* Adjust project image size */
+        width: 100%; /* Full width */
+    }
+
+    .projectdesc{
+        font-size: 20px;
+    }
+    
+    .projecttitle{
+        color:#000;
+        font-size: 30px;
+    }
+
+    .experiencedesc{
+        font-size: 20px;
+    }
+    
+    .experiencetitle{
+        font-size: 30px;
+    }
+
+    .projectbutton{
+        border-radius:10px;
+        height:25px;
+        font-size: 15px;
+    }
+}
+
+/* For screens 768px and below */
+@media only screen and (max-width: 768px) {
+    .hpbg {
+        height: 3150px; /* Adjust height */
+        width:100vw;
+    }
+
+    .headline h1 {
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        color: #fff;
+    }
+
+    .headerbg{
+        height:210px;
+        background-size:cover;
+        padding-top:0px;
+    }
+
+    .home-content h4 {
+        font-size: 17px;
+        margin: 0;
+        color: #000;
+    }
+    
+    .home-content h3 {
+        font-size: 25px;
+        font-weight: bold;
+        margin: 5px 0;
+        color:rgb(55, 25, 25);
+    }
+
+    .portfolio-title {
+        font-size: 24px;
+        font-weight: bold;
+        color: #000000;
+        position: relative;
+        height: 1.2em;
+        overflow: hidden;
+    }
+
+    .home {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px; /* Reduce padding to decrease space */
+        max-width: 800px;
+        width: 100%;
+    }
+
+    .home-content {
+        height: 200px;
+        width: 500px; /* Reduce width to bring the text closer to the image */
+        margin-right: 10px; /* Add a small margin to control spacing */
+    }
+    
+    .home-img img {
+        border-radius: 50%;
+        height: 200px;
+        width: 170px;
+        box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+        margin-left: 10px; /* Optional: reduce left margin */
+    }
+
+
+    .miniborder{
+        width:770px;
+    }
+
+    .miniborder h1{
+        font-size: 25px;
+    }
+
+    .projectimages {
+        height: 500px; /* Adjust project image size */
+        width: 100%; /* Full width */
+    }
+
+    .projectdesc{
+        font-size: 15px;
+    }
+    
+    .projecttitle{
+        color:#000;
+        font-size: 22px;
+    }
+
+    .experiencedesc{
+        font-size: 15px;
+    }
+    
+    .experiencetitle{
+        font-size: 22px;
+    }
+
+    .Skills-section h3{
+        font-size:23px;
+    }
+
+    .projectbutton{
+        border-radius:10px;
+        height:25px;
+        font-size:12px;
+    }
+}
+
+/* For screens 425px and below */
+@media only screen and (max-width: 426px) and (min-width: 377px) {
+    .hpbg {
+        height: 3030px; /* Adjust height */
+        width:100vw;
+    }
+
+    .headline h1 {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        color: #fff;
+        margin:20px;
+    }
+
+    .headerbg{
+        height:120px;
+        background-size:cover;
+        padding-top:0px;
+    }
+
+    .nav{
+        font-size:13px;
+    }
+
+    .skills{
+        height:70px;
+        width:70px;
+        border-radius: 8px;
+    }
+
+    .home-content h4 {
+        font-size: 16px;
+        margin: 0;
+        color: #000;
+    }
+    
+    .home-content h3 {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 5px 0;
+        color:rgb(55, 25, 25);
+    }
+
+    .portfolio-title {
+        font-size: 20px;
+        font-weight: bold;
+        color: #000000;
+        position: relative;
+        height: 1.2em;
+        overflow: hidden;
+    }
+
+    .home {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px; /* Reduce padding to decrease space */
+        max-width: 800px;
+        width: 100%;
+    }
+
+    .home-content {
+        height: 200px;
+        width: 200px; /* Reduce width to bring the text closer to the image */
+        margin-right: 10px; /* Add a small margin to control spacing */
+    }
+    
+    .home-img img {
+        border-radius: 50%;
+        height: 120px;
+        width: 108px;
+        box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+        margin-left: 10px; /* Optional: reduce left margin */
+    }
+
+    .button {
+        display: inline-block;
+        color: #000;
+        padding: 6px;
+        border-radius: 25px;
+        font-weight: bold;
+        text-decoration: none;
+        box-shadow: 0px 4px 8px rgba(61, 251, 68, 0.5); /* Adjusted shadow */
+        transition: transform 0.2s ease;
+        height: 30px;
+        width: 80px;
+        font-size: 10px;
+    }
+    
+    .button:hover {
+        transform: translateY(12px); /* Slight lift on hover for effect */
+    }
+
+    .miniborder{
+        width:390px;
+    }
+
+    .projectimages {
+        height: 400px; /* Adjust project image size */
+        width: 100%; /* Full width */
+    }
+
+    .projectdesc{
+        font-size: 14px;
+    }
+    
+    .projecttitle{
+        color:#000;
+        font-size: 20px;
+    }
+
+    .experiencedesc{
+        font-size: 13px;
+    }
+    
+    .experiencetitle{
+        font-size: 18px;
+    }
+
+    .projectbutton{
+        border-radius:10px;
+        height:20px;
+        font-size: 10px;
+    }
+}
+
+/* For screens 376px and below */
+@media only screen and (max-width: 376px){
+    .hpbg {
+        height: 2890px; /* Adjust height */
+        width:100vw;
+    }
+
+    .headline h1 {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: left;
+        margin: 20px;
+    }
+
+    .headerbg{
+        height:120px;
+        background-size:cover;
+        padding-top:0px;
+    }
+
+    .skills{
+        height:52px;
+        width:52px;
+        border-radius: 8px;
+    }
+
+    .home-content h4 {
+        font-size: 12px;
+        margin: 0;
+        color: #000;
+    }
+    
+    .home-content h3 {
+        font-size: 18px;
+        font-weight: bold;
+        margin: 5px 0;
+        color:rgb(55, 25, 25);
+    }
+
+    .portfolio-title {
+        font-size: 15px;
+        font-weight: bold;
+        color: #000000;
+        position: relative;
+        height: 1.2em;
+        overflow: hidden;
+    }
+
+    .home {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px; /* Reduce padding to decrease space */
+        max-width: 800px;
+        width: 100%;
+    }
+
+    .home-content {
+        height: 200px;
+        width: 200px; /* Reduce width to bring the text closer to the image */
+        margin-right: 10px; /* Add a small margin to control spacing */
+    }
+    
+    .home-img img {
+        border-radius: 50%;
+        height: 120px;
+        width: 108px;
+        box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+        margin-left: 10px; /* Optional: reduce left margin */
+    }
+
+    .nav{
+        font-size: 10px;
+    }
+
+    .button {
+        display: inline-block;
+        color: #000;
+        padding: 6px;
+        border-radius: 25px;
+        font-weight: bold;
+        text-decoration: none;
+        box-shadow: 0px 4px 8px rgba(61, 251, 68, 0.5); /* Adjusted shadow */
+        transition: transform 0.2s ease;
+        height: 30px;
+        width: 80px;
+        font-size: 10px;
+    }
+    
+    .button:hover {
+        transform: translateY(12px); /* Slight lift on hover for effect */
+    }
+
+    .miniborder{
+        width:375px;
+    }
+
+    .miniborder h1{
+        font-size:20px;
+    }
+
+    .projectimages {
+        height: 300px; /* Adjust project image size */
+        width: 100%; /* Full width */
+    }
+
+    .projectdesc{
+        font-size: 14px;
+    }
+    
+    .projecttitle{
+        color:#000;
+        font-size: 18px;
+    }
+
+    .experiencedesc{
+        font-size: 14px;
+    }
+    
+    .experiencetitle{
+        font-size: 18px;
+    }
+
+    .Skills-section h3{
+        font-size:16px;
+    }
+
+    .projectbutton{
+        border-radius:10px;
+        height:20px;
+        font-size:10px;
+    }
+}
+
+@media only screen and (max-width:360px) and (min-width:335px){
+    .miniborder{
+        width:342px;
+    }
+
+    .experiencetitle{
+        font-size: 16px;
+    }
+
+}
+
+/* For screens 321px and below */
+@media only screen and (max-width: 321px){
+    .hpbg {
+        height: 3050px; /* Adjust height */
+        width:100vw;
+    }
+
+    .headline h1 {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: left;
+        margin: 20px;
+    }
+
+    .headerbg{
+        height:115px;
+        background-size:cover;
+        padding-top:0px;
+    }
+
+    .skills{
+        height:52px;
+        width:52px;
+        border-radius: 8px;
+    }
+
+    .home-content h4 {
+        font-size: 12px;
+        margin: 0;
+        color: #000;
+    }
+    
+    .home-content h3 {
+        font-size: 18px;
+        font-weight: bold;
+        margin: 5px 0;
+        color:rgb(55, 25, 25);
+    }
+
+    .portfolio-title {
+        font-size: 15px;
+        font-weight: bold;
+        color: #000000;
+        position: relative;
+        height: 1.2em;
+        overflow: hidden;
+    }
+
+    .home {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px; /* Reduce padding to decrease space */
+        max-width: 800px;
+        width: 100%;
+    }
+
+    .home-content {
+        height: 200px;
+        width: 180px; /* Reduce width to bring the text closer to the image */
+        margin-right: 10px; /* Add a small margin to control spacing */
+    }
+    
+    .home-img img {
+        border-radius: 50%;
+        height: 120px;
+        width: 108px;
+        box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+        margin-left: 10px; /* Optional: reduce left margin */
+    }
+
+    .nav{
+        font-size: 10px;
+    }
+
+    .button {
+        display: inline-block;
+        color: #000;
+        padding: 6px;
+        border-radius: 25px;
+        font-weight: bold;
+        text-decoration: none;
+        box-shadow: 0px 4px 8px rgba(61, 251, 68, 0.5); /* Adjusted shadow */
+        transition: transform 0.2s ease;
+        height: 30px;
+        width: 80px;
+        font-size: 10px;
+    }
+    
+    .button:hover {
+        transform: translateY(12px); /* Slight lift on hover for effect */
+    }
+
+    .miniborder{
+        width:320px;
+    }
+
+    .miniborder h1{
+        font-size:20px;
+    }
+
+    .projectimages {
+        height: 300px; /* Adjust project image size */
+        width: 100%; /* Full width */
+    }
+
+    .projectdesc{
+        font-size: 14px;
+    }
+    
+    .projecttitle{
+        color:#000;
+        font-size: 18px;
+    }
+
+    .experiencedesc{
+        font-size: 14px;
+    }
+    
+    .experiencetitle{
+        font-size: 18px;
+    }
+
+    .Skills-section h3{
+        font-size:16px;
+    }
+
+    .projectbutton{
+        border-radius:10px;
+        height:20px;
+        font-size:10px;
+    }
+
+    .social-media1{
+        gap: 20px;
+    }
+}
