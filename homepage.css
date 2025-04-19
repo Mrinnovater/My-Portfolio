@@ -363,9 +363,6 @@
         width: 100%;
       }
       
-      .projectbutton{
-        border-radius:10px;
-      }
       
       .home-content{
         height:200px;
@@ -508,7 +505,7 @@
       .experiencetitle{
         font-size: 27px;
       }
-      
+
       .projectbutton{
         border-radius:10px;
         height:20px;
