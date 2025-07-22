@@ -17,6 +17,10 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
     crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+
 </head>
 
 <body>
@@ -91,120 +95,99 @@
 
     <!-- About Me -->
     <section class="About" id="About">
-      <div class="home">
-        <div class="m-5">
-          <div class="home-content">
-            <h4>👋 Hello, I'm</h4>
-            <h3>Venkata Shiva Sri Chodisetty</h3>
-            <h4> And I'm good at 👇</h4>
-            <div class="portfolio-title">
-              <span class="text">Frontend Development</span>
-              <span class="text">AI & ML Enthusiast</span>
-              <span class="text">Backend Development</span>
-            </div>
+      <div class="about-container">
+        <div class="about-text aboutme-margin">
+          <h4>👋 Hello, I'm</h4>
+          <h2>Venkata Shiva Sri Chodisetty</h2>
+          <h4>And I'm good at 👇</h4>
+          <div class="about-skills">
+            <span>Frontend Development</span>
+            <span>AI & ML Enthusiast</span>
+            <span>Backend Development</span>
           </div>
-
-          <!-- <div class="button">
-                      <button class="button" onclick="resume()"><a href="https://drive.google.com/file/d/1vKiTv_yenmiKQuQ2QGTT4HYrK-Six2Sd/view?usp=drive_link" target="_blank">My Resume</a></button>
-                    </div> -->
-
-          <div class="button">
-            <button class="button" onclick="resume()"
-              style="background-color: #4CAF50; border: none; color: white; padding: 8px 20px; text-align: center; font-size: 16px; border-radius: 6px; cursor: pointer;">
-              <a href="https://drive.google.com/file/d/1vKiTv_yenmiKQuQ2QGTT4HYrK-Six2Sd/view?usp=drive_link"
-                target="_blank" style="color: white; text-decoration: none;">
-                My Resume
-              </a>
-            </button>
-          </div>
-
-
-
+          <a class="resume-btn"
+            href="https://drive.google.com/file/d/1vKiTv_yenmiKQuQ2QGTT4HYrK-Six2Sd/view?usp=drive_link"
+            target="_blank">
+            📄 My Resume
+          </a>
         </div>
-        <div class="home-img">
-          <img src="myprofilepic.jpg" alt="Profile pic" height="300px" style="border-radius: 50%" />
+        <div class="about-image">
+          <img src="myprofilepic.jpg" alt="Profile Picture" />
         </div>
       </div>
     </section>
+
     <hr />
 
 
     <!-- Education Section -->
-    <div id="AboutMe" class="d-flex flex-column align-items-center Connect-section">
-      <div>
-        <div style="background-color: none;">
-          <div>
-            <div style="border-radius: 2px;background-color: none;text-align: center;" class="miniborder">
-              <h1 style="color:#fffff7;">Qualification</h1>
-            </div>
-            <div style="padding:10px;">
-              <h3 class="experiencetitle">SR University - (2022-2026)</h3>
-              <ul class="experiencedesc">
-                <li>Bachelor of Technology in Computer Science (AI & ML)</li>
-                <li>CGPA : 9.35/10</li>
-                <li>
-                  <h6 class="experiencedesc">Course Works</h6>
-                  <ul>
-                    <li>C Language</li>
-                    <li>Python</li>
-                    <li>Data Structures and Algorithms</li>
-                    <li>Java</li>
-                    <li>Database Management Systems</li>
-                    <li>Artificial Intelligence & Machine Learning</li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
+    <div id="AboutMe" class="qualification-section-wrapper">
+      <div class="qualification-container">
+        <h1 class="qualification-heading">Qualification</h1>
+
+        <div class="qualification-content">
+          <h3 class="qualification-title">SR University - (2022–2026)</h3>
+          <ul class="qualification-description">
+            <li>Bachelor of Technology in Computer Science (AI & ML)</li>
+            <li>CGPA : 9.35/10</li>
+            <h6 class="course-title">Course Works</h6>
+            <ul class="course-list">
+              <li>C Language</li>
+              <li>Python</li>
+              <li>Data Structures and Algorithms</li>
+              <li>Java</li>
+              <li>Database Management Systems</li>
+              <li>Artificial Intelligence & Machine Learning</li>
+            </ul>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
+
     <hr />
 
     <!-- Experience Section -->
-    <div id="AboutMe" class="d-flex flex-column align-items-center Connect-section">
-      <div>
-        <div style="background-color: none;">
-          <div>
-            <div style="border-radius: 2px;background-color: none;text-align: center;" class="miniborder">
-              <h1 style="color:#fffff7;">Experience</h1>
-            </div>
-            <div style="padding:10px;">
-              <h3 class="experiencetitle">Web Clone Internship - Nxt Wave ( Dec 2024 - Jan 2025)</h3>
-              <ul class="experiencedesc">
-                <li>
-                  Developed a responsive web clone of the NxtWave Talks website, replicating its design and
-                  functionality with a structured layout.
-                </li>
-                <li>
-                  Optimized responsiveness and user experience using modern web development best practices.
-                </li>
-                <li>
-                  Gained practical experience in all aspects of software development, from design to deployment.
-                </li>
-              </ul>
-              <hr />
-              <h3 class="experiencetitle">AI-ML Virtual Internship - Google For Developers (July 2024 - Sep 2024)</h3>
-              <ul class="experiencedesc">
-                <li>
-                  Developed Proficiency in AI-ML Fundamentals: Gained hands-on experience with key AI and ML concepts,
-                  enhancing skills in data processing, model training, and evaluation using Google's developer tools.
-                </li>
-                <li>
-                  Implemented Real-World AI Solutions: Built and deployed machine learning models addressing practical
-                  challenges, applying knowledge in supervised and unsupervised learning to create data-driven insights.
-                </li>
-                <li>
-                  Enhanced Technical Collaboration: Collaborated within the Google for Developers community, receiving
-                  mentorship and feedback, which improved teamwork and advanced problem-solving in AI-ML applications.
-                </li>
-              </ul>
-            </div>
-          </div>
+    <div id="AboutMe" class="experience-section-wrapper">
+      <div class="experience-container">
+        <h1 class="experience-heading">Experience</h1>
 
+        <div class="experience-content">
+          <h3 class="experience-title">Web Clone Internship - Nxt Wave (Dec 2024 - Jan 2025)</h3>
+          <ul class="experience-description">
+            <li>
+              Developed a responsive web clone of the NxtWave Talks website, replicating its design and
+              functionality with a structured layout.
+            </li>
+            <li>
+              Optimized responsiveness and user experience using modern web development best practices.
+            </li>
+            <li>
+              Gained practical experience in all aspects of software development, from design to deployment.
+            </li>
+          </ul>
+
+          <hr />
+
+          <h3 class="experience-title">AI-ML Virtual Internship - Google For Developers (July 2024 - Sep 2024)</h3>
+          <ul class="experience-description">
+            <li>
+              Developed Proficiency in AI-ML Fundamentals: Gained hands-on experience with key AI and ML concepts,
+              enhancing skills in data processing, model training, and evaluation using Google's developer tools.
+            </li>
+            <li>
+              Implemented Real-World AI Solutions: Built and deployed machine learning models addressing practical
+              challenges, applying knowledge in supervised and unsupervised learning to create data-driven insights.
+            </li>
+            <li>
+              Enhanced Technical Collaboration: Collaborated within the Google for Developers community, receiving
+              mentorship and feedback, which improved teamwork and advanced problem-solving in AI-ML applications.
+            </li>
+          </ul>
         </div>
       </div>
     </div>
+
     <hr />
 
     <!-- Projects Section -->
@@ -216,309 +199,412 @@
           <h1 style="color:#ffffff;">My Projects</h1>
         </div>
       </div>
-
-      <div id="carouselExampleInterval" class="carousel slide" data-bs-interval="5000" data-bs-ride="carousel"
-        style="color:#ffffff;">
+      <div class="container my-4"></div>
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-interval="5000" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active project-items" style="padding:20px;">
-            <h3 class="projecttitle">Style Transfer for Art</h3>
-            <div style="text-align: center;">
-              <img src="generated_img.jpg" alt="image" class="projectimages" />
-            </div>
-            <p class="projectdesc">
-              Developed an AI-powered style transfer model using TensorFlow Hub and VGG19 to apply artistic styles to
-              images. Utilized deep learning techniques to generate artistic transformations with optimized performance.
-              Improved the model by adjusting VGG19’s layers to better capture artistic details.
-              Used TensorFlow’s features and GPU support to speed up the process and make the transformations more
-              efficient.
-            </p>
-            <h5 class="projectdesc">Technology Stack :</h5>
-            <ul class="projectdesc">
-              <li>Programming Languages : Python, TensorFlow, TensorFlow Hub, Keras, NumPy, Matplotlib</li>
-              <li>Pre-trained Model : VGG19</li>
-              <li>IDE : Jupyter Notebook, Google Colab (for GPU acceleration)</li>
-              <li>Data Base : Personal data like style and my photo(for example)</li>
-            </ul>
-            <div class="d-flex justify-content-center">
-              <button class="projectbutton"
-                style="background-color: #31cdb6bc; border: none; color: white; padding: 8px 20px; text-align: center; font-size: 16px; border-radius: 6px; cursor: pointer;">
-                <a href="https://github.com/Mrinnovater/Generative-AI-Project" target="_blank"
-                  style="color: white; text-decoration: none;"> Project Code👈</a>
-              </button>
-              <button class="projectbutton"
-                style="background-color: #31cdb6bc; border: none; color: white; padding: 8px 20px;margin-left: 8px; text-align: center; font-size: 16px; border-radius: 6px; cursor: pointer;">
-                <a href="" target="_blank" style="color: white; text-decoration: none;"> Live Demo👈</a>
-              </button>
-            </div>
-          </div>
 
-          <div class="carousel-item project-items" style="padding:20px;">
-            <h3 class="projecttitle">Chat Bot Development</h3>
-            <div style="text-align: center;">
-              <img src="srubot.png" alt="sru chatbot" class="projectimages" />
-            </div>
-            <p class="projectdesc">
-              Created a chatbot for SR University that can answer the questions of incoming B.Tech students in
-              real-time,
-              improving the onboarding experience.Applied Natural Language Processing (NLP) techniques to guarantee
-              precise and contextually relevant responses
-              to student inquiries.The chatbot was created and deployed using Python and relevant libraries, which
-              streamlined communication
-              and made information more accessible for new students.
-            </p>
-            <h5 class="projectdesc">Technology Stack :</h5>
-            <ul class="projectdesc">
-              <li>Programming Languages : PYTHON,NLP,VECTORIZATION</li>
-              <li>IDE - Visual Studio Code</li>
-              <li>Data Base : Personal data folder</li>
-            </ul>
-            <h6 style="color:#ffffff">Note: As the application is hosted on a free-tier service, it may enter a sleep state
-              after periods of inactivity. Please allow up to 1–2 minutes for the app to wake up when accessing the live
-              demo.</h6>
-            <div class="d-flex justify-content-center">
-              <button class="projectbutton"
-                style="background-color: #31cdb6bc; border: none; color: white; padding: 8px 20px; text-align: center; font-size: 16px; border-radius: 6px; cursor: pointer;">
-                <a href="https://github.com/Mrinnovater/AIML_Project" target="_blank"
-                  style="color: white; text-decoration: none;"> Project Code👈</a>
-              </button>
-              <button class="projectbutton"
-                style="background-color: #31cdb6bc; border: none; color: white; padding: 8px 20px;margin-left: 8px; text-align: center; font-size: 16px; border-radius: 6px; cursor: pointer;">
-                <a href="https://mrinnovaterchatbotforsru.streamlit.app/" target="_blank"
-                  style="color: white; text-decoration: none;"> Live Demo👈</a>
-              </button>
-            </div>
-          </div>
+          <div class="carousel-item active">
+            <div class="row text-white px-3 py-4 align-items-center"
+              style="background: linear-gradient(135deg, #1c1c1e, #2a2a2d); border-radius: 12px;">
 
-          <div class="carousel-item project-items" style="padding:20px;">
-            <h3 class="projecttitle">Nxt Wave Talks (Web Clone Project)</h3>
-            <div style="text-align: center;">
-              <img src="web clone ss.png" alt="webclone of nextwave talks" class="projectimages" />
-            </div>
-            <p class="projectdesc">
-              Developed a responsive web clone of the NxtWave Talks website, replicating its design and functionality
-              with a
-              structured layout. Optimized responsiveness and user experience using modern web development best
-              practices.
-            </p>
-            <h5 class="projectdesc">Technology Stack :</h5>
-            <ul class="projectdesc">
-              <li>Programming Languages : HTML,CSS,BootStrap</li>
-              <li>IDE - Visual Studio</li>
-            </ul>
-            <div class="d-flex justify-content-center">
-              <button class="projectbutton"
-                style="background-color: #31cdb6bc; border: none; color: white; padding: 8px 20px; text-align: center; font-size: 16px; border-radius: 6px; cursor: pointer;">
-                <a href="https://github.com/Mrinnovater/Web-Clone-Project" target="_blank"
-                  style="color: white; text-decoration: none;"> Project Code👈</a>
-              </button>
-              <button class="projectbutton"
-                style="background-color: #31cdb6bc; border: none; color: white; padding: 8px 20px;margin-left: 8px; text-align: center; font-size: 16px; border-radius: 6px; cursor: pointer;">
-                <a href="https://mrinnovater.github.io/Web-Clone-Project/code.html" target="_blank"
-                  style="color: white; text-decoration: none;"> Live Demo👈</a>
-              </button>
+              <!-- Image Section -->
+              <div class="col-md-6 text-center mb-4 mb-md-0">
+                <img src="generated_img.jpg" alt="Style Transfer for Art" class="img-fluid rounded shadow-sm"
+                  style="max-height: 300px;" />
+              </div>
+
+              <!-- Content Section -->
+              <div class="col-md-6">
+                <h3 class="fw-bold text-info mb-3">🎨 Style Transfer for Art</h3>
+                <p class="mb-3">
+                  Developed an AI-powered style transfer model using TensorFlow Hub and VGG19 to apply artistic styles
+                  to images.
+                  Utilized deep learning techniques to generate artistic transformations with optimized performance.
+                  Improved the model by adjusting VGG19’s layers to better capture artistic details.
+                  Used TensorFlow’s features and GPU support to speed up the process and make the transformations more
+                  efficient.
+                </p>
+
+                <h5 class="mt-4 mb-2 text-light">🛠 Technology Stack:</h5>
+                <ul class="ps-3">
+                  <li><strong>Languages:</strong> Python, TensorFlow, TensorFlow Hub, Keras, NumPy, Matplotlib</li>
+                  <li><strong>Model:</strong> VGG19</li>
+                  <li><strong>IDE:</strong> Jupyter Notebook, Google Colab (for GPU acceleration)</li>
+                  <li><strong>Data:</strong> Personal style + image data</li>
+                </ul>
+
+                <!-- Buttons -->
+                <div class="mt-4 d-flex flex-wrap gap-3">
+                  <a href="https://github.com/Mrinnovater/Generative-AI-Project" target="_blank"
+                    class="btn btn-outline-info px-4">
+                    🔗 Project Code
+                  </a>
+                  <a href="#" target="_blank" class="btn btn-outline-info px-4">
+                    🚀 Live Demo
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
 
 
-          <div class="carousel-item project-items" style="padding:20px;">
-            <h3 class="projecttitle">Transportation</h3>
-            <div style="text-align: center;">
-              <img src="transportation.png" alt="Transportation" class="projectimages" />
-            </div>
-            <p class="projectdesc">
-              Created a complete transportation application in C language that encompasses multiple modes of transport,
-              Provide
-              the opportunity for users to select their preferred option and obtain fare information. Introduced
-              user-friendly features
-              to streamline travel planning and improve the overall user experience, including dynamic mode selection
-              and fare
-              calculation
-            </p>
-            <h5 class="projectdesc">Technology Stack :</h5>
-            <ul class="projectdesc">
-              <li>Programming Languages : C</li>
-              <li>IDE - Dev C++</li>
-            </ul>
-            <div class="d-flex justify-content-center">
-              <button class="projectbutton"
-                style="background-color: #31cdb6bc; border: none; color: white; padding: 8px 20px; text-align: center; font-size: 16px; border-radius: 6px; cursor: pointer;">
-                <a href="https://github.com/Mrinnovater/Transportation-" target="_blank"
-                  style="color: white; text-decoration: none;">Project Code 👈</a>
-              </button>
+          <div class="carousel-item">
+            <div class="row text-white px-3 py-4 align-items-center"
+              style="background: linear-gradient(135deg, #1e293b, #0f172a); border-radius: 12px;">
+
+              <!-- Image Section -->
+              <div class="col-md-6 text-center mb-4 mb-md-0">
+                <img src="srubot.png" alt="SRU Chatbot" class="img-fluid rounded shadow-sm"
+                  style="max-height: 300px;" />
+              </div>
+
+              <!-- Content Section -->
+              <div class="col-md-6">
+                <h3 class="fw-bold text-info mb-3">🤖 Chat Bot Development</h3>
+                <p class="mb-3">
+                  Created a chatbot for SR University that answers real-time questions from incoming B.Tech students,
+                  enhancing their onboarding experience.
+                  Applied Natural Language Processing (NLP) to deliver accurate, context-aware responses.
+                  Built and deployed using Python libraries to streamline communication and boost accessibility for
+                  students.
+                </p>
+
+                <h5 class="mt-4 mb-2 text-light">🛠 Technology Stack:</h5>
+                <ul class="ps-3">
+                  <li><strong>Languages:</strong> Python, NLP, Vectorization</li>
+                  <li><strong>IDE:</strong> Visual Studio Code</li>
+                  <li><strong>Database:</strong> Personal data folder</li>
+                </ul>
+
+                <div class="alert alert-warning py-2 mt-3" style="font-size: 0.9rem;">
+                  ⚠️ Note: As this app is hosted on a free-tier service, it may take 1–2 minutes to load after
+                  inactivity.
+                </div>
+
+                <!-- Buttons -->
+                <div class="mt-4 d-flex flex-wrap gap-3">
+                  <a href="https://github.com/Mrinnovater/AIML_Project" target="_blank"
+                    class="btn btn-outline-info px-4">
+                    🔗 Project Code
+                  </a>
+                  <a href="https://mrinnovaterchatbotforsru.streamlit.app/" target="_blank"
+                    class="btn btn-outline-info px-4">
+                    🚀 Live Demo
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
 
-          <div class="carousel-item project-items" style="padding:20px;">
-            <h3 class="projecttitle">Give me a hint on my number</h3>
-            <div style="text-align: center;">
-              <img src="guessgame.png" alt="Give me a hint on my number" class="projectimages" />
-            </div>
-            <p class="projectdesc">
-              Developed a Number Guessing Game using Python that generates a random number between 1 and 30,
-              challenging the user to guess it within a limited number of attempts.Designed a Python-based number
-              guessing game
-              with user interaction, including name prompts, dynamic feedback, and attempt tracking, and integrated
-              game mechanics to reveal the correct number if guesses are exhausted
-            </p>
-            <h5 class="projectdesc">Technology Stack :</h5>
-            <ul class="projectdesc">
-              <li>Programming Languages : PYTHON</li>
-              <li>IDE - Thonny</li>
-            </ul>
-            <h6 style="color:#ffffff">Note: As the application is hosted on a free-tier service, it may enter a sleep state
-              after periods of inactivity. Please allow up to 1–2 minutes for the app to wake up when accessing the live
-              demo.</h6>
-            <div class="d-flex justify-content-center">
-              <button class="projectbutton"
-                style="background-color: #31cdb6bc; border: none; color: white; padding: 8px 20px; text-align: center; font-size: 16px; border-radius: 6px; cursor: pointer;">
-                <a href="https://github.com/Mrinnovater/Guess_game" target="_blank"
-                  style="color: white; text-decoration: none;"> Project Code👈</a>
-              </button>
-              <button class="projectbutton"
-                style="background-color: #31cdb6bc; border: none; color: white; padding: 8px 20px;margin-left: 8px; text-align: center; font-size: 16px; border-radius: 6px; cursor: pointer;">
-                <a href="https://guess-gamess.onrender.com/" target="_blank"
-                  style="color: white; text-decoration: none;"> Live Demo👈</a>
-              </button>
+
+          <div class="carousel-item">
+            <div class="row text-white px-3 py-4 align-items-center"
+              style="background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); border-radius: 12px;">
+
+              <!-- Image Preview -->
+              <div class="col-md-6 text-center mb-4 mb-md-0">
+                <img src="web clone ss.png" alt="Web Clone of NxtWave Talks" class="img-fluid rounded shadow"
+                  style="max-height: 300px;" />
+              </div>
+
+              <!-- Content Description -->
+              <div class="col-md-6">
+                <h3 class="fw-bold text-warning mb-3">🌐 Nxt Wave Talks – Web Clone</h3>
+                <p class="mb-3">
+                  Crafted a pixel-perfect and fully responsive clone of the NxtWave Talks website, mirroring its UI and
+                  functionality using modern HTML, CSS, and Bootstrap practices.
+                  Emphasized clean layout, mobile responsiveness, and usability to recreate the platform’s professional
+                  user experience.
+                </p>
+
+                <h5 class="mt-4 mb-2 text-light">🛠 Technology Stack:</h5>
+                <ul class="ps-3">
+                  <li><strong>Languages:</strong> HTML, CSS, Bootstrap</li>
+                  <li><strong>IDE:</strong> Visual Studio</li>
+                </ul>
+
+                <!-- Buttons -->
+                <div class="mt-4 d-flex flex-wrap gap-3">
+                  <a href="https://github.com/Mrinnovater/Web-Clone-Project" target="_blank"
+                    class="btn btn-outline-warning px-4">
+                    🔗 Project Code
+                  </a>
+                  <a href="https://mrinnovater.github.io/Web-Clone-Project/code.html" target="_blank"
+                    class="btn btn-outline-warning px-4">
+                    🚀 Live Demo
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
 
-          <div class="carousel-item project-items" style="padding:20px;">
-            <h3 class="projecttitle">Learning Website</h3>
-            <div style="text-align: center;">
-              <img src="learningwebsite.png" alt="Learning Website" class="projectimages" />
-            </div>
-            <p class="projectdesc">
-              To create a website for students who face challenges in clearing their doubts in classrooms, the platform
-              should
-              cater to various educational stages, offering personalized solutions. The website will act as a safe space
-              where
-              students can seek answers without the pressure of time constraints or fear of judgment. The site should be
-              segmented
-              by educational stages such as school, high school (+12), undergraduates, and postgraduates, each having
-              tailored resources
-              and guides. The homepage should introduce the purpose of the platform, emphasizing its role in breaking
-              down academic
-              complexities and providing students with clear next steps to follow in their learning journey. This clear,
-              inviting
-              design will encourage students to engage confidently with the platform.
-            </p>
-            <h5 class="projectdesc">Technology Stack :</h5>
-            <ul class="projectdesc">
-              <li>Programming Languages : HTML,CSS</li>
-              <li>IDE - Visual Studio</li>
-            </ul>
-            <div class="d-flex justify-content-center">
-              <button class="projectbutton"
-                style="background-color: #31cdb6bc; border: none; color: white; padding: 8px 20px; text-align: center; font-size: 16px; border-radius: 6px; cursor: pointer;">
-                <a href="https://github.com/Mrinnovater/Learning-website" target="_blank"
-                  style="color: white; text-decoration: none;"> Project Code👈</a>
-              </button>
-              <button class="projectbutton"
-                style="background-color: #31cdb6bc; border: none; color: white; padding: 8px 20px;margin-left: 8px; text-align: center; font-size: 16px; border-radius: 6px; cursor: pointer;">
-                <a href="https://mrinnovater.github.io/Learning-website/homepage.html" target="_blank"
-                  style="color: white; text-decoration: none;"> Live Demo👈</a>
-              </button>
+
+
+          <div class="carousel-item">
+            <div class="row text-white px-3 py-4 align-items-center"
+              style="background: linear-gradient(135deg, #141e30, #243b55); border-radius: 12px;">
+
+              <!-- Image Column -->
+              <div class="col-md-6 text-center mb-4 mb-md-0">
+                <img src="transportation.png" alt="Transportation App" class="img-fluid rounded shadow"
+                  style="max-height: 300px;" />
+              </div>
+
+              <!-- Description Column -->
+              <div class="col-md-6">
+                <h3 class="fw-bold text-info mb-3">🚍 Transportation Planner</h3>
+                <p class="mb-3">
+                  Built a full-featured transportation system in C that supports various travel modes with fare
+                  calculation.
+                  Designed for ease of use, allowing users to dynamically select travel options, retrieve costs, and
+                  plan routes
+                  efficiently. Enhanced user experience through simple CLI-based interaction and modular code logic.
+                </p>
+
+                <h5 class="mt-4 mb-2 text-light">🛠 Technology Stack:</h5>
+                <ul class="ps-3">
+                  <li><strong>Language:</strong> C</li>
+                  <li><strong>IDE:</strong> Dev C++</li>
+                </ul>
+
+                <!-- Code Button -->
+                <div class="mt-4 d-flex flex-wrap gap-3">
+                  <a href="https://github.com/Mrinnovater/Transportation-" target="_blank"
+                    class="btn btn-outline-info px-4">
+                    🔗 Project Code
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
 
-          <div class="carousel-item project-items" style="padding:20px;">
-            <h3 class="projecttitle">Flat Booking</h3>
-            <div style="text-align: center;">
-              <img src="faltbooking.png" alt="Flat Booking" class="projectimages" />
-            </div>
-            <p class="projectdesc">
-              Developed a comprehensive flat booking website tailored to customer preferences, allowing users to explore
-              options
-              like 2BHK, 3BHK, and 4BHK apartments. This platform streamlines the booking process by capturing essential
-              details,
-              helping customers make informed choices, and providing a seamless reservation experience. The design is
-              user-centric,
-              focusing on clear navigation and detailed listings to meet diverse housing needs effectively.
-            </p>
-            <h5 class="projectdesc">Technology Stack :</h5>
-            <ul class="projectdesc">
-              <li>Programming Languages : HTML,CSS</li>
-              <li>IDE - Visual Studio</li>
-            </ul>
-            <div class="d-flex justify-content-center">
-              <button class="projectbutton"
-                style="background-color: #31cdb6bc; border: none; color: white; padding: 8px 20px; text-align: center; font-size: 16px; border-radius: 6px; cursor: pointer;">
-                <a href="https://github.com/Mrinnovater/Flat-booking" target="_blank"
-                  style="color: white; text-decoration: none;"> Project Code👈</a>
-              </button>
-              <button class="projectbutton"
-                style="background-color: #31cdb6bc; border: none; color: white; padding: 8px 20px;margin-left: 8px; text-align: center; font-size: 16px; border-radius: 6px; cursor: pointer;">
-                <a href="https://mrinnovater.github.io/Flat-booking/flatbooking.html" target="_blank"
-                  style="color: white; text-decoration: none;"> Live Demo👈</a>
-              </button>
+
+          <div class="carousel-item">
+            <div class="row text-white px-3 py-4 align-items-center"
+              style="background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); border-radius: 12px;">
+
+              <!-- Image Section -->
+              <div class="col-md-6 text-center mb-4 mb-md-0">
+                <img src="guessgame.png" alt="Number Guessing Game" class="img-fluid rounded shadow"
+                  style="max-height: 300px;" />
+              </div>
+
+              <!-- Content Section -->
+              <div class="col-md-6">
+                <h3 class="fw-bold text-warning mb-3">🎯 Guess the Number</h3>
+                <p>
+                  A fun and interactive number guessing game built in Python. The system randomly selects a number
+                  between 1 and 30, and the player must guess it within a limited number of attempts.
+                  Features include dynamic user prompts, feedback on each guess, and final reveal if attempts run out —
+                  great for showcasing basic logic and interaction in Python.
+                </p>
+
+                <h5 class="mt-4 mb-2 text-light">🛠 Technology Stack:</h5>
+                <ul class="ps-3">
+                  <li><strong>Language:</strong> Python</li>
+                  <li><strong>IDE:</strong> Thonny</li>
+                </ul>
+
+                <p class="mt-3" style="font-size: 0.95rem; color: #ccc;">
+                  ⚠️ Note: Hosted on a free-tier platform — may take 1–2 mins to load after inactivity.
+                </p>
+
+                <!-- Buttons -->
+                <div class="mt-4 d-flex flex-wrap gap-3">
+                  <a href="https://github.com/Mrinnovater/Guess_game" target="_blank"
+                    class="btn btn-outline-warning px-4">
+                    🔗 Project Code
+                  </a>
+                  <a href="https://guess-gamess.onrender.com/" target="_blank" class="btn btn-outline-success px-4">
+                    🚀 Live Demo
+                  </a>
+                </div>
+              </div>
+
             </div>
           </div>
 
-          <div class="carousel-item project-items" style="padding:20px;">
-            <h3 class="projecttitle">Temperature Converter</h3>
-            <div style="text-align: center;">
-              <img src="tempconv.png" alt="temperature-converter" class="projectimages" />
-            </div>
-            <p class="projectdesc">
-              Developed a responsive and user-friendly web app that allows seamless conversion between Celsius,
-              Fahrenheit, and Kelvin. Built with a clean interface and instant conversion functionality for quick and
-              accurate results. Deployed on Render, ensuring easy access and smooth performance. Ideal for showcasing
-              skills in front-end development, UI design, and basic computational logic.
-            </p>
-            <h5 class="projectdesc">Technology Stack :</h5>
-            <ul class="projectdesc">
-              <li>Programming Languages : HTML, CSS, JavaScript</li>
-              <li>IDE - Visual Studio</li>
-            </ul>
-            <h6 style="color:#ffffff">Note: As the application is hosted on a free-tier service, it may enter a sleep state
-              after periods of inactivity. Please allow up to 1–2 minutes for the app to wake up when accessing the live
-              demo.</h6>
-            <div class="d-flex justify-content-center">
-              <button class="projectbutton"
-                style="background-color: #31cdb6bc; border: none; color: white; padding: 8px 20px; text-align: center; font-size: 16px; border-radius: 6px; cursor: pointer;">
-                <a href="https://github.com/Mrinnovater/Temperature_Converter" target="_blank"
-                  style="color: white; text-decoration: none;"> Project Code👈</a>
-              </button>
-              <button class="projectbutton"
-                style="background-color: #31cdb6bc; border: none; color: white; padding: 8px 20px;margin-left: 8px; text-align: center; font-size: 16px; border-radius: 6px; cursor: pointer;">
-                <a href="https://temperature-converter-d0yz.onrender.com/" target="_blank"
-                  style="color: white; text-decoration: none;"> Live Demo👈</a>
-              </button>
+
+          <div class="carousel-item">
+            <div class="row px-3 py-4 align-items-center"
+              style="background: linear-gradient(135deg, #f3f4f6, #e0f7fa); border-radius: 12px; color: #1a1a1a;">
+
+              <!-- Left Image -->
+              <div class="col-md-6 text-center mb-4 mb-md-0">
+                <img src="learningwebsite.png" alt="Learning Website" class="img-fluid rounded shadow-sm"
+                  style="max-height: 300px;" />
+              </div>
+
+              <!-- Right Content -->
+              <div class="col-md-6">
+                <h3 class="fw-bold text-primary mb-3">📘 Learning Website</h3>
+                <p>
+                  Designed an inclusive educational platform for students across multiple academic stages.
+                  The site helps clarify doubts in a safe, stress-free space—whether you’re in school, college, or
+                  higher studies.
+                  Structured into tailored sections, it delivers personalized learning pathways, simplified academic
+                  concepts, and intuitive guidance for self-paced growth.
+                </p>
+
+                <h5 class="mt-4 mb-2">🛠 Technology Stack:</h5>
+                <ul class="ps-3">
+                  <li><strong>Languages:</strong> HTML, CSS</li>
+                  <li><strong>IDE:</strong> Visual Studio</li>
+                </ul>
+
+                <!-- Buttons -->
+                <div class="mt-4 d-flex flex-wrap gap-3">
+                  <a href="https://github.com/Mrinnovater/Learning-website" target="_blank"
+                    class="btn btn-outline-primary px-4">
+                    🔗 Project Code
+                  </a>
+                  <a href="https://mrinnovater.github.io/Learning-website/homepage.html" target="_blank"
+                    class="btn btn-outline-success px-4">
+                    🚀 Live Demo
+                  </a>
+                </div>
+              </div>
+
             </div>
           </div>
 
-          <div class="carousel-item project-items" style="padding:20px;">
-            <h3 class="projecttitle">🧠 Reuters Word Explorer</h3>
-            <div style="text-align: center;">
-              <img src="reuters.png" alt="Reuters_word_explorer" class="projectimages" />
-            </div>
-            <p class="projectdesc">
-              An interactive NLP tool that lets users explore word relationships and similarities using the Reuters
-              dataset. Leveraging Word2Vec embeddings, it visualizes how words are semantically related in real-time.
-              Built with Streamlit for a clean and intuitive user experience. Great for demonstrating skills in natural
-              language processing, data visualization, and interactive web app development.
-            </p>
-            <h5 class="projectdesc">Technology Stack :</h5>
-            <ul class="projectdesc">
-              <li>Programming Languages : HTML,CSS</li>
-              <li>IDE - Visual Studio</li>
-            </ul>
-            <h6 style="color:#ffffff">Note: As the application is hosted on a free-tier service, it may enter a sleep state
-              after periods of inactivity. Please allow up to 1–2 minutes for the app to wake up when accessing the live
-              demo.</h6>
-            <div class="d-flex justify-content-center">
-              <button class="projectbutton"
-                style="background-color: #31cdb6bc; border: none; color: white; padding: 8px 20px; text-align: center; font-size: 16px; border-radius: 6px; cursor: pointer;">
-                <a href="https://github.com/Mrinnovater/Reuters_word_explorer" target="_blank"
-                  style="color: white; text-decoration: none;"> Project Code👈</a>
-              </button>
-              <button class="projectbutton"
-                style="background-color: #31cdb6bc; border: none; color: white; padding: 8px 20px;margin-left: 8px; text-align: center; font-size: 16px; border-radius: 6px; cursor: pointer;">
-                <a href="https://mrinnovaterreuterswordexplorer.streamlit.app/" target="_blank"
-                  style="color: white; text-decoration: none;"> Live Demo👈</a>
-              </button>
+
+          <div class="carousel-item">
+            <div class="row px-3 py-4 align-items-center"
+              style="background: linear-gradient(135deg, #fff9f0, #f0f8ff); border-radius: 12px; color: #1a1a1a;">
+
+              <!-- Left Image -->
+              <div class="col-md-6 text-center mb-4 mb-md-0">
+                <img src="faltbooking.png" alt="Flat Booking" class="img-fluid rounded shadow"
+                  style="max-height: 300px;" />
+              </div>
+
+              <!-- Right Content -->
+              <div class="col-md-6">
+                <h3 class="fw-bold text-danger mb-3">🏢 Flat Booking Platform</h3>
+                <p>
+                  Developed a dynamic flat booking website that enables users to browse and select from a range of
+                  housing options like 2BHK, 3BHK, and 4BHK.
+                  Designed for ease of navigation, the platform simplifies the booking flow while collecting crucial
+                  user details—empowering smart, informed real-estate decisions.
+                </p>
+
+                <h5 class="mt-4 mb-2">🛠 Technology Stack:</h5>
+                <ul class="ps-3">
+                  <li><strong>Languages:</strong> HTML, CSS</li>
+                  <li><strong>IDE:</strong> Visual Studio</li>
+                </ul>
+
+                <!-- Buttons -->
+                <div class="mt-4 d-flex flex-wrap gap-3">
+                  <a href="https://github.com/Mrinnovater/Flat-booking" target="_blank"
+                    class="btn btn-outline-dark px-4">
+                    🔗 Project Code
+                  </a>
+                  <a href="https://mrinnovater.github.io/Flat-booking/flatbooking.html" target="_blank"
+                    class="btn btn-outline-success px-4">
+                    🚀 Live Demo
+                  </a>
+                </div>
+              </div>
+
             </div>
           </div>
+
+
+          <div class="carousel-item">
+            <div class="row px-3 py-4 align-items-center"
+              style="background: linear-gradient(135deg, #f0fff4, #e6f7ff); border-radius: 12px; color: #1a1a1a;">
+
+              <!-- Left Image -->
+              <div class="col-md-6 text-center mb-4 mb-md-0">
+                <img src="tempconv.png" alt="Temperature Converter" class="img-fluid rounded shadow"
+                  style="max-height: 280px;" />
+              </div>
+
+              <!-- Right Content -->
+              <div class="col-md-6">
+                <h3 class="fw-bold text-primary mb-3">🌡️ Temperature Converter</h3>
+                <p>
+                  A responsive and interactive web application for converting values between Celsius, Fahrenheit, and
+                  Kelvin. Designed for instant feedback with a minimalist interface. Optimized for performance using
+                  modern front-end technologies and hosted on Render for global accessibility.
+                </p>
+
+                <h5 class="mt-4 mb-2">🛠 Technology Stack:</h5>
+                <ul class="ps-3">
+                  <li><strong>Languages:</strong> HTML, CSS, JavaScript</li>
+                  <li><strong>IDE:</strong> Visual Studio</li>
+                </ul>
+
+                <p class="mt-3 text-muted small">
+                  ⚠️ Hosted on a free-tier service. Please allow 1–2 minutes for the app to activate after inactivity.
+                </p>
+
+                <!-- Buttons -->
+                <div class="mt-3 d-flex flex-wrap gap-3">
+                  <a href="https://github.com/Mrinnovater/Temperature_Converter" target="_blank"
+                    class="btn btn-outline-dark px-4">
+                    🔗 Project Code
+                  </a>
+                  <a href="https://temperature-converter-d0yz.onrender.com/" target="_blank"
+                    class="btn btn-outline-success px-4">
+                    🚀 Live Demo
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+          <div class="carousel-item">
+            <div class="row px-3 py-4 align-items-center"
+              style="background: linear-gradient(135deg, #fff8f1, #f0f4ff); border-radius: 12px; color: #1a1a1a;">
+
+              <!-- Left Image -->
+              <div class="col-md-6 text-center mb-4 mb-md-0">
+                <img src="reuters.png" alt="Reuters Word Explorer" class="img-fluid rounded shadow"
+                  style="max-height: 280px;" />
+              </div>
+
+              <!-- Right Content -->
+              <div class="col-md-6">
+                <h3 class="fw-bold text-primary mb-3">🧠 Reuters Word Explorer</h3>
+                <p>
+                  An interactive NLP tool that explores semantic relationships using the Reuters dataset. Built with
+                  Word2Vec for embedding comparisons and Streamlit for an intuitive front-end. Visualizes word
+                  connections in real time — ideal for showcasing expertise in NLP, vector space models, and interactive
+                  data visualization.
+                </p>
+
+                <h5 class="mt-4 mb-2">🛠 Technology Stack:</h5>
+                <ul class="ps-3">
+                  <li><strong>Languages:</strong> Python, HTML, CSS</li>
+                  <li><strong>IDE:</strong> Visual Studio</li>
+                  <li><strong>Framework:</strong> Streamlit</li>
+                </ul>
+
+                <p class="mt-3 text-muted small">
+                  ⚠️ Hosted on a free-tier service — it may take 1–2 minutes to wake after inactivity.
+                </p>
+
+                <!-- Buttons -->
+                <div class="mt-3 d-flex flex-wrap gap-3">
+                  <a href="https://github.com/Mrinnovater/Reuters_word_explorer" target="_blank"
+                    class="btn btn-outline-dark px-4">
+                    🔗 Project Code
+                  </a>
+                  <a href="https://mrinnovaterreuterswordexplorer.streamlit.app/" target="_blank"
+                    class="btn btn-outline-info px-4">
+                    🚀 Live Demo
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
 
 
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
@@ -533,127 +619,112 @@
           </button>
         </div>
       </div>
-      <hr />
-
-      <!-- Skills Section -->
-
-      <div id="Skills" class="Skills-section" style="color:#ffffff;">
-        <div class="d-flex flex-column align-items-center Connect-section">
-          <div style="border-radius: 2px;background-color: none;text-align: center;" class="miniborder">
-            <h1 style="color:#ffffff;">Skills Obtained</h1>
-          </div>
-        </div>
-        <h3 style="margin:10px; padding-top:20px;color:#ffffff;">Programming Languages</h3>
-        <div class="d-flex flex-row" style="gap:10px;margin: 20px;">
-          <img src="c.png" alt="" class="skills" />
-          <img src="c++.png" alt="" class="skills" />
-          <img src="python.png" alt="" class="skills" />
-          <img src="java.jpeg" alt="" class="skills" />
-        </div>
-
-        <h3 style="margin:10px; padding-top:20px;color:#ffffff;">Web Programming Languages</h3>
-        <div class="d-flex flex-row" style="gap:10px;margin: 20px;">
-          <img src="web.png" alt="" class="skills" />
-          <img src="bootstrap.png" alt="" class="skills" />
-          <img src="reactjs.png" alt="" class="skills" />
-          <img src="php.png" alt="" class="skills" />
-        </div>
-
-        <h3 style="margin:10px; padding-top:20px;color:#ffffff;">FrameWorks</h3>
-        <div class="d-flex flex-row" style="gap:10px;margin: 20px;">
-          <img src="django.png" alt="" class="skills" />
-          <img src="git.png" alt="" class="skills" />
-          <img src="vs.png" alt="" class="skills" />
-        </div>
-
-        <h3 style="margin:10px; padding-top:20px;color:#ffffff;">Data Bases</h3>
-        <div class="d-flex flex-row" style="gap:10px;margin: 20px;">
-          <img src="sql.jpeg" alt="" class="skills" />
-          <img src="mysql.png" alt="" class="skills" />
-          <img src="plsql.png" alt="" class="skills" />
-          <img src="mongodb.jpeg" alt="" class="skills" />
-        </div>
-
-        <h3 style="margin:10px; padding-top:20px;color:#ffffff;">Domain Knowledge</h3>
-        <div class="d-flex flex-row" style="gap:10px;margin: 20px;">
-          <img src="ai.png" alt="" class="skills" />
-          <img src="ml.png" alt="" class="skills" />
-          <img src="dl.png" alt="" class="skills" />
-          <img src="fs.png" alt="" class="skills" />
-        </div>
-      </div>
-      <hr />
-
-      <!-- Footer Section -->
-      <div id="Connect" class="d-flex flex-column align-items-center Connect-section"
-        style="background-color: none;">
-        <div style="border-radius: 2px;background-color: none;text-align: center;" class="miniborder">
-          <h1 style="color:#ffffff;">Social Media Connect</h1>
-        </div>
-        <div class="social-media1" style="padding: 10px; display: flex;">
-          <div style="background-color: antiquewhite;height:35px;width:35px;border-radius: 15px;padding:6px;">
-            <a href="https://www.linkedin.com/in/ch-venkata-shiva-sri-976245296/" target="_blank">
-              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="blue" class="bi bi-linkedin"
-                viewBox="0 0 16 16">
-                <path
-                  d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
-              </svg>
-            </a>
-          </div>
-
-          <div style="background-color: antiquewhite;height:35px;width:35px;border-radius: 15px;padding:6px;">
-            <a href="https://github.com/Mrinnovater" target="_blank">
-              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="purple" class="bi bi-github"
-                viewBox="0 0 16 16">
-                <path
-                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
-              </svg>
-            </a>
-          </div>
-
-          <div style="background-color: rgb(81, 184, 92);height:35px;width:35px;border-radius: 15px;padding:6px;">
-            <a href="https://leetcode.com/u/Shiva33_19/" target="_blank">
-              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="yellow" class="bi bi-code-square"
-                viewBox="0 0 16 16">
-                <path
-                  d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
-                <path
-                  d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0m2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0" />
-              </svg>
-            </a>
-          </div>
-
-          <div style="background-color: antiquewhite;height:35px;width:35px;border-radius: 15px;padding:6px;">
-            <a href="https://wa.me/+919381677518" target="_blank">
-              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="rgb(87, 199, 0)"
-                class="bi bi-whatsapp" viewBox="0 0 16 16">
-                <path
-                  d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
-              </svg>
-            </a>
-          </div>
-
-          <div style="background-color: antiquewhite;height:35px;width:35px;border-radius: 15px;padding:6px;">
-            <a href="mailto:shivamchodisetty333@gmail.com" target="_blank">
-              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="red" class="bi bi-envelope-at-fill"
-                viewBox="0 0 16 16">
-                <path
-                  d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671" />
-                <path
-                  d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791" />
-              </svg>
-            </a>
-          </div>
-
-        </div>
-      </div>
-
     </div>
-    <script type="text/javascript"
-      src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"></script>
+    <hr />
+
+    <!-- Skills Section -->
+
+    <div id="Skills" class="skills-section">
+      <div class="skills-header">
+        <h1>Skills Obtained</h1>
+      </div>
+
+      <!-- Programming Languages -->
+      <div class="skills-category">
+        <h3>Programming Languages</h3>
+        <div class="skills-icons">
+          <div class="skill-box"><img src="c.png" alt="C"><span>C</span></div>
+          <div class="skill-box"><img src="c++.png" alt="C++"><span>C++</span></div>
+          <div class="skill-box"><img src="python.png" alt="Python"><span>Python</span></div>
+          <div class="skill-box"><img src="java.jpeg" alt="Java"><span>Java</span></div>
+        </div>
+      </div>
+
+      <!-- Web Programming Languages -->
+      <div class="skills-category">
+        <h3>Web Programming Languages</h3>
+        <div class="skills-icons">
+          <div class="skill-box"><img src="web.png" alt="HTML/CSS"><span>HTML & CSS</span></div>
+          <div class="skill-box"><img src="bootstrap.png" alt="Bootstrap"><span>Bootstrap</span></div>
+          <div class="skill-box"><img src="reactjs.png" alt="ReactJS"><span>ReactJS</span></div>
+          <div class="skill-box"><img src="php.png" alt="PHP"><span>PHP</span></div>
+        </div>
+      </div>
+
+      <!-- Frameworks -->
+      <div class="skills-category">
+        <h3>Frameworks & Tools</h3>
+        <div class="skills-icons">
+          <div class="skill-box"><img src="django.png" alt="Django"><span>Django</span></div>
+          <div class="skill-box"><img src="git.png" alt="Git"><span>Git</span></div>
+          <div class="skill-box"><img src="vs.png" alt="VS Code"><span>VS Code</span></div>
+        </div>
+      </div>
+
+      <!-- Databases -->
+      <div class="skills-category">
+        <h3>Databases</h3>
+        <div class="skills-icons">
+          <div class="skill-box"><img src="sql.jpeg" alt="SQL"><span>SQL</span></div>
+          <div class="skill-box"><img src="mysql.png" alt="MySQL"><span>MySQL</span></div>
+          <div class="skill-box"><img src="plsql.png" alt="PL/SQL"><span>PL/SQL</span></div>
+          <div class="skill-box"><img src="mongodb.jpeg" alt="MongoDB"><span>MongoDB</span></div>
+        </div>
+      </div>
+
+      <!-- Domain Knowledge -->
+      <div class="skills-category">
+        <h3>Domain Knowledge</h3>
+        <div class="skills-icons">
+          <div class="skill-box"><img src="ai.png" alt="AI"><span>AI</span></div>
+          <div class="skill-box"><img src="ml.png" alt="ML"><span>ML</span></div>
+          <div class="skill-box"><img src="dl.png" alt="DL"><span>DL</span></div>
+          <div class="skill-box"><img src="fs.png" alt="Full Stack"><span>Full Stack</span></div>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <!-- Footer Section -->
+    <div id="Connect" class="connect-section">
+      <div class="connect-header">
+        <h1>Social Media Connect</h1>
+      </div>
+
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/ch-venkata-shiva-sri-976245296/" target="_blank" class="icon linkedin">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://github.com/Mrinnovater" target="_blank" class="icon github">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://leetcode.com/u/Shiva33_19/" target="_blank" class="icon leetcode">
+          <i class="bi bi-code-square"></i>
+        </a>
+        <a href="https://wa.me/+919381677518" target="_blank" class="icon whatsapp">
+          <i class="bi bi-whatsapp"></i>
+        </a>
+        <a href="mailto:shivamchodisetty333@gmail.com" target="_blank" class="icon email">
+          <i class="bi bi-envelope-at-fill"></i>
+        </a>
+      </div>
+    </div>
+
+    <footer class="footer-section">
+      <div class="footer-content">
+        <p>© 2025 <strong>Ch Venkata Shiva Sri</strong>. All rights reserved.</p>
+      </div>
+    </footer>
+
+
+
+  </div>
+  <script type="text/javascript"
+    src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
