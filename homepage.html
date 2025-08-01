@@ -75,6 +75,20 @@
             </li>
 
             <li>
+              <a href="#Blog" class="nav-link text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                  class="bi bi-journal-richtext" viewBox="0 0 16 16">
+                  <path d="M7 5.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1H8v2h2a.5.5 0 0 1 0 1H8v1.5a.5.5 0 0 1-1 0v-5z" />
+                  <path
+                    d="M0 3a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3zm2-1a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H2z" />
+                  <path d="M15 4.5a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5z" />
+                </svg>
+                Blogs
+              </a>
+            </li>
+
+
+            <li>
               <a href="#Connect" class="nav-link text-white">
                 <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
                   class="bi bi-person-fill-add" viewBox="0 0 16 16">
@@ -106,7 +120,7 @@
             <span>Backend Development</span>
           </div>
           <a class="resume-btn"
-            href="https://drive.google.com/file/d/1KhdqdNtaWmLn0HlRjqyJJdGuu3tLGL77/view?usp=sharing"
+            href="https://drive.google.com/file/d/1vKiTv_yenmiKQuQ2QGTT4HYrK-Six2Sd/view?usp=drive_link"
             target="_blank">
             📄 My Resume
           </a>
@@ -623,28 +637,53 @@
     <hr />
 
     <!-- Blogs -->
-
-    <div id="Blog" class="blog-section">
-      <div class="d-flex flex-column align-items-center Connect-section">
-        <div class="miniborder" style="text-align: center;">
-          <h1 style="color:#272424;">📝 Blogs & Articles</h1>
-        </div>
+    <div id="Blogs" class="blogs-section">
+      <div class="blogs-heading-wrapper">
+        <h1 class="blogs-title">📄 Blogs & Articles</h1>
       </div>
 
-      <div class="blog-card">
-        <h2 class="blog-title">🧠 The Role of Chunking in Problem Solving</h2>
-        <p class="blog-snippet">
-          Discover how chunking transforms complex tasks into manageable parts and enhances problem-solving efficiency
-          in daily life, education, and AI applications.
-        </p>
-        <a href="https://chunkinganditsimporatnce.blogspot.com/2025/02/the-role-of-chunking-in-problem-solving.html"
-          target="_blank" class="blog-button">
-          Read Full Blog →
-        </a>
+      <div id="blogsCarousel" class="carousel slide blogs-carousel" data-bs-ride="carousel">
+        <div class="carousel-inner blogs-carousel-inner">
+          <!-- First Blog Card -->
+          <div class="carousel-item active">
+            <div class="blogs-card">
+              <h2 class="blogs-card-title">🧠 The Role of Chunking in Problem Solving</h2>
+              <p class="blogs-card-snippet">
+                Discover how chunking transforms complex tasks into manageable parts and enhances problem-solving
+                efficiency in daily life, education, and AI applications.
+              </p>
+              <a href="https://chunkinganditsimporatnce.blogspot.com/2025/02/the-role-of-chunking-in-problem-solving.html"
+                target="_blank" class="blogs-card-button">
+                Read Full Blog →
+              </a>
+            </div>
+          </div>
+
+          <!-- Second Blog Card -->
+          <div class="carousel-item">
+            <div class="blogs-card">
+              <h2 class="blogs-card-title">💸 Paid For It, Didn't Use It, Lost It</h2>
+              <p class="blogs-card-snippet">
+                A practical dive into how wasted data plans, unused subscriptions, or forgotten tools cost us daily.
+                Learn how awareness of usage helps reclaim digital value.
+              </p>
+              <a href="https://unuseddata.blogspot.com/2025/07/paid-for-it-didnt-use-it-lost-it-daily.html"
+                target="_blank" class="blogs-card-button">
+                Read Full Blog →
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#blogsCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#blogsCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
       </div>
     </div>
-
-
 
     <!-- Skills Section -->
 
