@@ -151,7 +151,22 @@
     animation: gradientAnimation 8s ease infinite;
     margin-bottom: 20px;
 }
-
+@media (max-width: 768px){
+    .about-me-heading {
+    font-size: 1.9rem;
+    font-weight: bold;
+    background: linear-gradient(270deg,
+            #ff6ec4,
+            #7873f5,
+            #42e695,
+            #ff6ec4);
+    background-size: 800% 800%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientAnimation 8s ease infinite;
+    margin-bottom: 20px;
+}
+}
 .about-me-section p {
     color: #ffffff;
     text-align: justify;
@@ -499,20 +514,29 @@ ul.projectdesc {
 }
 
 /* ========= Header Title ========= */
+.skills-tab {
+    display: inline-flex;
+    justify-content: center !important;
+    text-align: center !important;
+    align-items: center !important;
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 12px 20px;
+    border-radius: 25px 25px 0 0;
+    font-size: 1.8rem;
+    color: #ffffff;
+    font-weight: 600;
+    gap: 10px;
+    backdrop-filter: blur(6px);
+}
 .skills-header {
-    text-align: center;
+    display: flex;
+    justify-content: center; /* Centers the .skills-tab horizontally */
     margin-bottom: 40px;
 }
-
-.skills-header h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    background: linear-gradient(90deg, #31cdb6, #6ef3d6);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    letter-spacing: 1px;
+.skills-tab .skills-icon {
+    font-size: 1.6rem;
+    color: #dcd3f3; /* light purple tone similar to your blogs icon */
 }
-
 /* ========= Category Headings ========= */
 .skills-category {
     margin-bottom: 35px;
@@ -795,9 +819,8 @@ ul.projectdesc {
     align-items: center;
     gap: 10px;
     padding: 10px 20px;
-    background-color: rgba(185, 182, 182, 0.848);
+    background-color: rgba(255, 255, 255, 0.1);
     border-top-left-radius: 20px;
-    margin-top:5px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -809,12 +832,34 @@ ul.projectdesc {
 }
 
 .miniborder h1 {
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-family: 'Times New Roman', serif;
+    margin: 0;
+}
+@media (max-width: 768px){
+    .miniborder {
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    background-color: rgba(185, 182, 182, 0.848);
+    border-top-left-radius: 20px;
+    margin-top:25px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    backdrop-filter: blur(5px);
+}
+.miniborder h1 {
     color: black;
     font-size: 1.8rem;
     font-family: 'Times New Roman', serif;
     margin: 0;
 }
-
+}
 .blogs-section {
     padding: 60px 20px;
     background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
@@ -835,7 +880,16 @@ ul.projectdesc {
     border-radius: 30px 30px 0 0;
     display: inline-block;
 }
-
+@media (max-width: 768px){
+    .blogs-title {
+    font-size: 1.6rem;
+    color: #eee;
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 10px 25px;
+    border-radius: 30px 30px 0 0;
+    display: inline-block;
+}
+}
 .blogs-carousel {
     background: transparent;
     border-radius: 0;
@@ -903,8 +957,10 @@ ul.projectdesc {
 
 @media (max-width: 768px) {
     .blogs-card {
-        padding: 20px;
-        margin: 20px 10px;
+        padding: 30px;
+        margin: 20px 20px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .blogs-card-title {
@@ -916,7 +972,7 @@ ul.projectdesc {
     }
 
     .blogs-card-button {
-        width: 100%;
+        width: 65%;
         text-align: center;
     }
 }
