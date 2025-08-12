@@ -387,7 +387,7 @@
 }
 
 .course-title {
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: bold;
     margin-top: 10px;
     color: #e0e0e0;
@@ -629,31 +629,7 @@ ul.projectdesc {
     box-shadow: 0 0 12px rgba(255, 255, 255, 0.4);
 }
 
-/* Specific Colors per Platform */
-.linkedin {
-    background-color: #0a66c2;
-    color: #fff;
-}
 
-.github {
-    background-color: #333;
-    color: #fff;
-}
-
-.leetcode {
-    background-color: #f89f1b;
-    color: #fff;
-}
-
-.whatsapp {
-    background-color: #7dd79e;
-    color: #fff;
-}
-
-.email {
-    background-color: #d93025;
-    color: #fff;
-}
 
 /* Responsive */
 @media (max-width: 576px) {
